@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bubble-sheet"
+version = "0.1.0"
+description = ""
+authors = ["Fernando Jorge <linguacavalcante@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bubble_sheet"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.7.0.72"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
